@@ -1,12 +1,12 @@
 dbA.url=jdbc:mysql://localhost:3306/testdb
-dbA.username=root
-dbA.password=87654321
+dbA.username=<Username>
+dbA.password=<Password>
 dbA.name=testdb
 dbA.type=SQL Server
 dbA.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
 dbB.url=jdbc:mysql://localhost:3306/testDb2
-dbB.username=root
-dbB.password=87654321
+dbB.username=<Username>
+dbB.password=<Password>
 dbB.name=testDb2
 dbB.type=SQL Server
 dbB.driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
