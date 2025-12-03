@@ -9,24 +9,28 @@ The application is packaged as a **runnable JAR** file and comes with a **simple
 
 ## 🚀 How to Use
 
-1. **Run the Application:**
+1. **Download the `CompareDB_User_Manual.docx`:**
+   - Copy the Zip file given at End of the Manual to Desired Location in Your System  
+   - Unzip the File
+
+2. **Run the Application:**
    - Double-click the `CompareDB.jar` file  
    *(or run it using the command `java -jar CompareDB.jar` if needed)*.
 
-2. **Fill in the Database Details:**
+3. **Fill in the Database Details:**
    - The **UI will pop up** asking for:
      - Database A Connection Details (URL, Username, Password, Type)
      - Database B Connection Details (URL, Username, Password, Type)
      - If want to have comparison between any two Specific tables, then click on Toggle button with title "Compare Mode". Fields for inserting table names for both the databases will appear, put in your table name 
 
-3. **Submit:**
+4. **Submit:**
    - Click the **"Submit"** button.
    - The application will save your input internally and begin the **comparison process**.
 
-4. **Completion:**
+5. **Completion:**
    - Once the comparison is done, you will see a **Success Alert** saying **"Database Comparison Completed"**.
 
-5. **Output:**
+6. **Output:**
    - A file named **`db_output.txt`** will be generated **at the same location** where the `CompareDB.jar` exists.
    - This file contains the **comparison results** (schema and data differences, if any).
 
