@@ -277,6 +277,4 @@ git push -u origin main
 
 Before `git push`, inspect `git status` and confirm that `dbInput.txt`, generated reports, JAR files, and `target/` are not included.
 
-## License
 
-Add the project's intended license before publishing. If no license is selected, the repository remains fully copyrighted by its author and others may not have permission to reuse the code.
