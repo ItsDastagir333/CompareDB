@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Local database configuration and generated comparison output
+dbInput.txt
+dbOutput.txt
+
+bin/
+*.class
+*.jar
+temp.txt

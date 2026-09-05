@@ -1,0 +1,17 @@
+dbA.url=jdbc:mysql://localhost:3306/paymentapp
+dbA.username=root
+dbA.password=123456789
+dbA.name=paymentapp
+dbA.type=MySQL
+dbA.driver=com.mysql.cj.jdbc.Driver
+dbB.url=jdbc:mysql://localhost:3306/paymentapp
+dbB.username=root
+dbB.password=123456789
+dbB.name=paymentapp
+dbB.type=MySQL
+dbB.driver=com.mysql.cj.jdbc.Driver
+compare.mode=ALL
+spring.application.name=CompareDB
+spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+spring.data.jpa.repositories.enabled=false
+server.port=8081

@@ -1,0 +1,28 @@
+# Database A
+# Use the database server hostname or IP address reachable from the application.
+dbA.url=jdbc:mysql://database-host:3306/database_a
+dbA.username=comparedb
+dbA.password=replace-with-password
+dbA.name=database_a
+dbA.type=MySQL
+dbA.driver=com.mysql.cj.jdbc.Driver
+
+# Database B
+dbB.url=jdbc:mysql://database-host:3306/database_b
+dbB.username=comparedb
+dbB.password=replace-with-password
+dbB.name=database_b
+dbB.type=MySQL
+dbB.driver=com.mysql.cj.jdbc.Driver
+
+# ALL compares the complete database. TABLE compares the two configured tables.
+compare.mode=ALL
+# Required only when compare.mode=TABLE:
+# dbA.table=table_in_database_a
+# dbB.table=table_in_database_b
+
+# Spring settings used by the desktop application
+spring.application.name=CompareDB
+spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+spring.data.jpa.repositories.enabled=false
+server.port=8081

@@ -1,0 +1,9 @@
+.git
+.idea
+.vscode
+target
+bin
+*.jar
+dbOutput.txt
+Dockerfile
+README.md
